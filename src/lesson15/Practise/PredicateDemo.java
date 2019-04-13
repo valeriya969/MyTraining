@@ -11,6 +11,8 @@ public class PredicateDemo {
         System.out.println(predicate1.test(" "));
         System.out.println(predicate2.test(" dsdfdd"));
         System.out.println(predicate2.test(""));
+        System.out.println();
+        System.out.println(predicate1.and(predicate2).test(""));
 
     }
 }
