@@ -32,4 +32,13 @@ public class Box6 {
     double getVolume() {
         return width * height * depth;
     }
+
+    @Override
+    public String toString() {
+        return "Box6{" +
+                "width=" + width +
+                ", height=" + height +
+                ", depth=" + depth +
+                '}';
+    }
 }
