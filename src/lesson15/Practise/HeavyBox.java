@@ -3,16 +3,32 @@ package lesson15.Practise;
 import java.util.function.Consumer;
 
 public class HeavyBox extends Box6 {
-    int weight; // вес коробки
+    private int weight; // вес коробки
 
     public HeavyBox() {
     }
 
-    public HeavyBox(int width, int height, int depth, int weight) {
-        this.width = width;
-        this.height = height;
-        this.depth = depth;
+    public HeavyBox(double w, double h, double d, int weight) {
+        super(w, h, d);
         this.weight = weight;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    @Override
+    public String toString() {
+        return "HeavyBox{" +
+                "weight=" + weight +
+                ", width=" + width +
+                ", height=" + height +
+                ", depth=" + depth +
+                "} " ;
     }
 
     public static void main(String[] args) {
