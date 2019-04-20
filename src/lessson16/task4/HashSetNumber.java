@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class TreeSetNumber {
+public class HashSetNumber {
     public static void main(String[] args) {
         System.out.println("Введите целые числа");
         sortedNumbers();
