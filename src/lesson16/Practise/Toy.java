@@ -1,4 +1,4 @@
-package lessson16.Practise;
+package lesson16.Practise;
 
 public class Toy {
     private String name;

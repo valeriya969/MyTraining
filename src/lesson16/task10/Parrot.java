@@ -1,4 +1,4 @@
-package lessson16.task10;
+package lesson16.task10;
 
 public class Parrot extends Pet {
     public Parrot(String name, String sex) {

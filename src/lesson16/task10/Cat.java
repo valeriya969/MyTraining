@@ -1,4 +1,4 @@
-package lessson16.task10;
+package lesson16.task10;
 
 public class Cat extends Pet {
     public Cat(String name, String sex) {

@@ -1,4 +1,4 @@
-package lessson16.Practise;
+package lesson16.Practise;
 
 /**
  * В этом примере класс Вох определяет три конструктора для инициализации

@@ -1,10 +1,13 @@
-package lessson16.Practise;
+package lesson16.Practise;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
-public class TreeMapDemo {
+public class HashMapDemo {
     public static void main(String[] args) {
-        Map<String, Toy> map = new TreeMap<>();
+        Map<String, Toy> map = new HashMap<>();
         map.put("Doll", new Toy("Doll", 45));
         map.put("Cube", new Toy("Cube", 50));
         map.put("Car", new Toy("Car", 40));
@@ -31,4 +34,3 @@ public class TreeMapDemo {
         System.out.println(keys);
     }
 }
-

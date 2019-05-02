@@ -1,4 +1,4 @@
-package lessson16.task5;
+package lesson16.task5;
 
 import java.util.HashSet;
 import java.util.Set;

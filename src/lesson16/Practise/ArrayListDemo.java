@@ -1,7 +1,6 @@
-package lessson16.Practise;
+package lesson16.Practise;
 
 import lesson15.Practise.HeavyBox;
-import lesson9.Test.A;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package lessson16.Practise;
+package lesson16.Practise;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
